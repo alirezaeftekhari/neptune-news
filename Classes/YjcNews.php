@@ -51,8 +51,8 @@ class YjcNews extends NewsAgency
 }
 
 
-echo '<pre>';
-print_r(YjcNews::politicsParse());
-print_r(YjcNews::socialParse());
-print_r(YjcNews::economyParse());
-echo '</pre>';
+//echo '<pre>';
+//print_r(YjcNews::politicsParse());
+//print_r(YjcNews::socialParse());
+//print_r(YjcNews::economyParse());
+//echo '</pre>';

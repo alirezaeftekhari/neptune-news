@@ -39,9 +39,9 @@ class Tasnim extends NewsAgency
     }
 }
 
-echo '<pre>';
-print_r(Tasnim::politicsParse());
-print_r(Tasnim::economyParse());
-print_r(Tasnim::socialParse());
-echo '</pre>';
+//echo '<pre>';
+//print_r(Tasnim::politicsParse());
+//print_r(Tasnim::economyParse());
+//print_r(Tasnim::socialParse());
+//echo '</pre>';
 

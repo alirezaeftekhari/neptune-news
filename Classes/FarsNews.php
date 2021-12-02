@@ -47,8 +47,8 @@ class FarsNews extends NewsAgency
         return $newsInfo;
     }
 }
-echo '<pre>';
-print_r(FarsNews::politicsParse());
-print_r(FarsNews::socialParse());
-print_r(FarsNews::economyParse());
-echo '</pre>';
+//echo '<pre>';
+//print_r(FarsNews::politicsParse());
+//print_r(FarsNews::socialParse());
+//print_r(FarsNews::economyParse());
+//echo '</pre>';
