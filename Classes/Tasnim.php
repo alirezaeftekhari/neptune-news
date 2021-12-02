@@ -21,11 +21,11 @@ class Tasnim extends NewsAgency
 
         foreach ($section->children() as $article)
         {
-            $a = $article->firstChild();
+            $a = $article->find('a')[0];
             $link = self::$url.$a->attr('href');
-            $src = $a->firstChild()->firstChild()->firstChild()->attr('src');
-            $title = $a->lastChild()->firstChild()->text();
-            $description = $a->lastChild()->child(1)->text();
+            $src = $a->find('img')[0]->attr('src');
+            $title = $a->find('h2')[0]->text();
+            $description = $a->find('h4')[0]->text();
             $newsInfo[] = [
                 'title' =>  $title,
                 'src' => $src,
