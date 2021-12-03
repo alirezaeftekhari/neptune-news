@@ -25,9 +25,8 @@ $TasnimEconomic = Tasnim::economyParse();
     <!-- plugin css for this page -->
     <link
       rel="stylesheet"
-      href="./assets/vendors/mdi/css/materialdesignicons.min.css"
-    />
-    <link rel="stylesheet" href="assets/vendors/aos/dist/aos.css/aos.css" />
+      href="./assets/vendors/mdi/css/materialdesignicons.min.css" />
+
 
     <!-- inject:css -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -144,7 +143,7 @@ $TasnimEconomic = Tasnim::economyParse();
               </div>
               <div class="col-xl-4 stretch-card grid-margin">
                 <div class="card bg-dark text-white">
-                  <div class="card-body">
+                  <div class="card-body rtl">
                     <h2>آخرین اخبار</h2>
 
                     <div class="d-flex border-bottom-blue pt-3 pb-4 align-items-center justify-content-between" >
